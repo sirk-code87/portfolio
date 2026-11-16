@@ -10,7 +10,7 @@
   <a href="product-case-studies/">case studies</a>
 </p>
 
-A working collection of the tools and apps I've built and shipped as a hands-on product manager. The tools come from a UK hospitality commerce company serving luxury hotels and spas; the case studies also draw on a restaurant ordering and payments platform before it. The originals and their code belong to those companies. Everything here is my own write-up, and people appear by role only.
+A working collection of things I've built and shipped as a hands-on product manager, added to as I go. The tools come from a UK hospitality commerce company serving luxury hotels and spas; the case studies also draw on a restaurant ordering and payments platform before it. The originals and their code belong to those companies. Everything here is my own write-up, and people appear by role only.
 
 ## What I've built
 
