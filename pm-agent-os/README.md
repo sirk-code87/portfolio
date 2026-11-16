@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/banner-pm-agent-os.svg" alt="pm-agent-os: The AI agent system I ran a product leadership role on" width="100%">
+  <img src="../assets/banner-pm-agent-os.svg" alt="pm-agent-os: My own AI workspace for day-to-day product work" width="100%">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 |---|---|---|---|
 | Designed, built and ran it | Feb to Nov 2026 | Claude Code, Obsidian, MCP, hooks | Handed over, Nov 2026 |
 
-From February to November 2026 I ran my job as Head of Product at a UK hospitality commerce company (luxury hotels and spas) with a set of AI agents I built. They planned my day each morning, processed my meetings, pulled product gaps out of customer calls, kept a record of every decision, drafted the weekly report to the leadership team, gave specialist views on request, and took tasks I handed over and returned drafts. Every message, publish or code merge waited for my approval.
+For nine months I ran my day-to-day product work at a UK hospitality commerce company (luxury hotels and spas) through a set of AI agents I built. They planned my day each morning, processed my meetings, pulled product gaps out of customer calls, kept a record of every decision, drafted the weekly report to the leadership team, gave specialist views on request, and took tasks I handed over and returned drafts. Every message, publish or code merge waited for my approval.
 
 The system ran on Claude Code (Anthropic's AI assistant, which works with files and runs tools) over an Obsidian vault (a folder of linked notes).
 
@@ -21,7 +21,7 @@ This repository documents the design: architecture, decisions, build history and
 
 ## The problem
 
-A Head of Product's week is mostly reading, drafting and deciding, spread across a CRM (the customer database), a roadmap tool, call transcripts, Slack, email and code. I wanted agents to do the reading and drafting. I could trust that only if a person stayed on every decision with an effect outside the vault, and if the models writing about the work could not inflate the record of it.
+A product leader's week is mostly reading, drafting and deciding, spread across a CRM (the customer database), a roadmap tool, call transcripts, Slack, email and code. I wanted agents to do the reading and drafting. I could trust that only if a person stayed on every decision with an effect outside the vault, and if the models writing about the work could not inflate the record of it.
 
 ## Design principle: agents draft, a human decides
 

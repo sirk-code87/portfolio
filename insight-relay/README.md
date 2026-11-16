@@ -13,7 +13,7 @@
 |---|---|---|---|
 | Designed and built it | Jun to Nov 2026 | Vercel, GitHub Actions, Claude API as judge, Productboard | All lanes handed over, Nov 2026 |
 
-One intake engine that took customer feedback from about ten channels and filed it in Productboard, the company's roadmap tool, with each note linked to its customer and tagged with where it came from. I designed and built the original in 2026 as Head of Product at a UK hospitality commerce company serving luxury hotels and spas. This repo is my own write-up of it, rewritten from scratch.
+One intake engine that took customer feedback from about ten channels and filed it in Productboard, the company's roadmap tool, with each note linked to its customer and tagged with where it came from. I designed and built the original in 2026 at a UK hospitality commerce company serving luxury hotels and spas. This repo is my own write-up of it, rewritten from scratch.
 
 ## The problem
 

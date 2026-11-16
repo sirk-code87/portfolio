@@ -13,7 +13,7 @@
 |---|---|---|---|
 | Designed and built it | Jun to Nov 2026 | Web app on Vercel, Slack, model gateway, Productboard | Live on web and Slack; handed over Nov 2026 |
 
-A short coached chat that helps colleagues turn "something I noticed about a customer" into a clear product insight. Each insight starts with the customer's problem, records how strong the evidence is, and lands in Productboard (the tool the product team uses to collect and prioritise feedback), credited to the customer and to the colleague who raised it. I designed and built the original in 2026 as Head of Product at a UK hospitality commerce company serving luxury hotels and spas.
+A short coached chat that helps colleagues turn "something I noticed about a customer" into a clear product insight. Each insight starts with the customer's problem, records how strong the evidence is, and lands in Productboard (the tool the product team uses to collect and prioritise feedback), credited to the customer and to the colleague who raised it. I designed and built the original in 2026 at a UK hospitality commerce company serving luxury hotels and spas.
 
 This repository documents the design: architecture, decisions, build history and lessons. The original system and its code are private.
 
