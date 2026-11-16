@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="account-ops-console: An incident tool that became the ops team’s console">
+  <title>account-ops-console: An incident tool that became the ops team’s console</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1c2a44"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0b1220" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="1280" height="220" rx="18" fill="#0b1220"/>
+  <rect width="1280" height="220" rx="18" fill="url(#dots)"/>
+  <rect width="1280" height="220" rx="18" fill="url(#fade)"/>
+  <rect x="0" y="0" width="6" height="220" fill="#2dd4bf" opacity="0.9"/>
+  <text x="64" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#2dd4bf">PAYMENTS OPERATIONS  ·  2026</text>
+  <text x="62" y="130" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="48" font-weight="700" fill="#f8fafc">account-ops-console</text>
+  <text x="64" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#9fb0c8">An incident tool that became the ops team’s console</text>
+  <rect x="960" y="52" width="230" height="120" rx="10" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="960" y1="76" x2="1190" y2="76" stroke="#2dd4bf" stroke-width="2"/>
+  <circle cx="976" cy="64" r="4" fill="#2dd4bf" opacity="0.4"/>
+  <circle cx="990" cy="64" r="4" fill="#2dd4bf" opacity="0.65"/>
+  <circle cx="1004" cy="64" r="4" fill="#2dd4bf" opacity="0.9"/>
+  <line x1="978" y1="94" x2="1090" y2="94" stroke="#9fb0c8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="1120" cy="94" r="4" fill="#2dd4bf"/>
+  <line x1="978" y1="118" x2="1064" y2="118" stroke="#9fb0c8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="1120" cy="118" r="4" fill="#fbbf24"/>
+  <line x1="978" y1="142" x2="1038" y2="142" stroke="#9fb0c8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="1120" cy="142" r="4" fill="#2dd4bf"/>
+  <rect x="1140" y="128" width="36" height="20" rx="10" fill="#fbbf24"/>
+  <circle cx="1166" cy="138" r="7" fill="#0b1220"/>
+
+  </g>
+</svg>

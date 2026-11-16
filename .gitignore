@@ -1,0 +1,15 @@
+_private/
+profile/
+# Case studies not yet rewritten to the current brief (see _private/evals/case-study)
+product-case-studies/buy-now-pay-later-rollout/
+product-case-studies/checkout-authentication-losses/
+product-case-studies/cross-sell-retrospective/
+product-case-studies/integration-hub/
+product-case-studies/international-expansion-gate/
+product-case-studies/offline-mode-scope/
+product-case-studies/paid-bespoke-work/
+product-case-studies/payment-links/
+product-case-studies/payments-revenue-line/
+product-case-studies/product-operating-platform/
+product-case-studies/roadmap-scorecard/
+product-case-studies/unified-ordering-proposition/

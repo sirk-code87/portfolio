@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="pm-agent-os: The AI agent system I ran a product leadership role on">
+  <title>pm-agent-os: The AI agent system I ran a product leadership role on</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1c2a44"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0b1220" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="1280" height="220" rx="18" fill="#0b1220"/>
+  <rect width="1280" height="220" rx="18" fill="url(#dots)"/>
+  <rect width="1280" height="220" rx="18" fill="url(#fade)"/>
+  <rect x="0" y="0" width="6" height="220" fill="#2dd4bf" opacity="0.9"/>
+  <text x="64" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#2dd4bf">AGENT SYSTEM  ·  2026</text>
+  <text x="62" y="130" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="48" font-weight="700" fill="#f8fafc">pm-agent-os</text>
+  <text x="64" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#9fb0c8">The AI agent system I ran a product leadership role on</text>
+  <rect x="960" y="68" width="150" height="22" rx="6" fill="#134e4a" stroke="#2dd4bf" stroke-width="2" opacity="1"/>
+  <rect x="960" y="98" width="150" height="22" rx="6" fill="none" stroke="#2dd4bf" stroke-width="2" opacity="0.8"/>
+  <rect x="960" y="128" width="150" height="22" rx="6" fill="none" stroke="#2dd4bf" stroke-width="2" opacity="0.6"/>
+  <line x1="1110" y1="109" x2="1156" y2="109" stroke="#2dd4bf" stroke-width="2"/>
+  <rect x="1160" y="98" width="22" height="22" transform="rotate(45 1171 109)" fill="#fbbf24"/>
+
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="product-case-studies: Problem, evidence, decision, outcome">
+  <title>product-case-studies: Problem, evidence, decision, outcome</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1c2a44"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0b1220" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="1280" height="220" rx="18" fill="#0b1220"/>
+  <rect width="1280" height="220" rx="18" fill="url(#dots)"/>
+  <rect width="1280" height="220" rx="18" fill="url(#fade)"/>
+  <rect x="0" y="0" width="6" height="220" fill="#2dd4bf" opacity="0.9"/>
+  <text x="64" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#2dd4bf">PRODUCT JUDGEMENT  ·  2025 TO 2026</text>
+  <text x="62" y="130" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="48" font-weight="700" fill="#f8fafc">product-case-studies</text>
+  <text x="64" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#9fb0c8">Problem, evidence, decision, outcome</text>
+  <rect x="1012" y="90" width="170" height="96" rx="10" fill="#0b1220" stroke="#2dd4bf" stroke-width="2" opacity="0.5"/>
+  <rect x="986" y="74" width="170" height="96" rx="10" fill="#0b1220" stroke="#2dd4bf" stroke-width="2" opacity="0.75"/>
+  <rect x="960" y="58" width="170" height="96" rx="10" fill="#134e4a" stroke="#2dd4bf" stroke-width="2" opacity="1"/>
+  <line x1="978" y1="86" x2="1080" y2="86" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="978" y1="106" x2="1100" y2="106" stroke="#9fb0c8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="978" y1="124" x2="1056" y2="124" stroke="#9fb0c8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <rect x="1088" y="118" width="14" height="14" transform="rotate(45 1095 125)" fill="#fbbf24"/>
+
+  </g>
+</svg>
