@@ -7,6 +7,7 @@
   <a href="insight-coach/">insight-coach</a> ·
   <a href="insight-relay/">insight-relay</a> ·
   <a href="pm-agent-os/">pm-agent-os</a> ·
+  <a href="https://github.com/sirk-code87/simphony-sts-harness">simphony-sts-harness</a> ·
   <a href="product-case-studies/">case studies</a>
 </p>
 
@@ -22,6 +23,14 @@ A working collection of things I've built and shipped as a hands-on product mana
 | 🧭 | [**pm-agent-os**](pm-agent-os/) | My own AI workspace for day-to-day product work: agents that read, draft and keep the record, with every outgoing message held for my approval. | [Architecture](pm-agent-os/docs/architecture.md) · [Decisions](pm-agent-os/docs/decisions/) · [Build log](pm-agent-os/BUILD-LOG.md) |
 
 Each write-up follows the same shape: **problem → who it was for → what it does → decisions → build log → what I'd do differently.** The build logs are written up from dated decision records and include the reversals. New builds are added as they ship.
+
+## Open-source tools
+
+My own projects, with the code in their own repos.
+
+| | Tool | What it is |
+|---|---|---|
+| 🧾 | [**simphony-sts-harness**](https://github.com/sirk-code87/simphony-sts-harness) | A local GUI for testing the Oracle Simphony Transaction Services Gen 2 API, from login to a paid check, with a built-in mock server so it runs without credentials. |
 
 ## Product case studies
 
@@ -64,4 +73,4 @@ flowchart LR
 - Case studies give elapsed time ("at six weeks") rather than calendar dates.
 - Diagrams are Mermaid and render on GitHub.
 - Stripe, Productboard, Claude Code and Vercel are named because the work is specific to them. Other vendors are described generically.
-- Docs only: the code stayed with the employers.
+- Employer tools are docs only: that code stayed with the employers. Open-source tools link to their own repos.
