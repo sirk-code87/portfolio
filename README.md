@@ -36,7 +36,7 @@ My own projects, with the code in their own repos.
 
 Each study runs problem, solution and impact: how I found the problem, how I chose the fix, and what it measurably changed.
 
-- [**Retuning fraud rules that were turning away good guests**](product-case-studies/fraud-rules-blocking-good-guests/): a reversible call made live when no quick test could prove it safe, measured against triggers agreed in advance.
+- [**Retuning fraud rules that were turning away good guests**](product-case-studies/fraud-rules-blocking-good-guests/): a fraud rule was declining genuine guests, some of them eight times on one booking. No quick test could prove a change safe, so I narrowed the rule live, wrote down when I'd reverse it before any results came in, and cut its blocks by 95% with no rise in fraud warnings.
 
 More studies on prioritisation, payments and integrations are being added.
 
