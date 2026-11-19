@@ -22,9 +22,15 @@ A fraud rule was declining genuine guests, some up to eight times. I narrowed it
 
 Restaurant operators rebuilt their upsell lists by hand every menu cycle. I chose a machine learning engine that learned pairings from real orders, then built the second release around pilot feedback: an audit trail and operator rules, because restaurants upsell for profit. Average transaction value rose 8% to 12% against control groups, and setup fell to under an hour per cycle. *Restaurant ordering, 2024.*
 
+## Design for adoption
+
+### [An integration hub that products would choose to use](integration-hub/)
+
+A software group sold one connected suite while each acquired product ran its own integrations. I built a shared hub where products keep their own swap-in connectors, and put a low-risk reservations use case first, over commercial pressure for loyalty, so the architecture was proven before anything was sold on it. Handed over with the architecture demonstrated and adoption still open. *Restaurant ordering, 2025.*
+
 ## More to come
 
-Further studies on prioritisation, payments and integrations are being rewritten to the same standard and will be added here.
+Further studies on prioritisation and payments are being rewritten to the same standard and will be added here.
 
 ## Reading notes
 
