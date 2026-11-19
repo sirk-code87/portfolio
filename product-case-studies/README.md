@@ -16,6 +16,12 @@ These are rewritten from my own notes. The original documents belong to those co
 
 A fraud rule was declining genuine guests, some up to eight times. I narrowed it live against reversal triggers agreed in advance. Blocks fell by about 95%, recovered booking value outweighed the added fraud exposure by more than a thousand to one, and early fraud warnings did not rise. *Hospitality commerce, 2026.*
 
+## Ship lean, then listen
+
+### [An upsell engine operators would trust with their margins](upsell-engine/)
+
+Restaurant operators rebuilt their upsell lists by hand every menu cycle. I chose a machine learning engine that learned pairings from real orders, then built the second release around pilot feedback: an audit trail and operator rules, because restaurants upsell for profit. Average transaction value rose 8% to 12% against control groups, and setup fell to under an hour per cycle. *Restaurant ordering, 2024.*
+
 ## More to come
 
 Further studies on prioritisation, payments and integrations are being rewritten to the same standard and will be added here.
