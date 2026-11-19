@@ -21,8 +21,9 @@ A working collection of things I've built and shipped as a hands-on product mana
 | 💬 | [**insight-coach**](insight-coach/) | A two-to-three question chat that turns "something I noticed" into an evidenced product insight. | [Architecture](insight-coach/docs/architecture.md) · [Decisions](insight-coach/docs/decisions/) · [Build log](insight-coach/BUILD-LOG.md) |
 | 🔀 | [**insight-relay**](insight-relay/) | One intake for about ten feedback sources, with an AI judge and a trial run before any automated lane files to the roadmap. | [Architecture](insight-relay/docs/architecture.md) · [Decisions](insight-relay/docs/decisions/) · [Build log](insight-relay/BUILD-LOG.md) |
 | 🧭 | [**pm-agent-os**](pm-agent-os/) | My own AI workspace for day-to-day product work: agents that read, draft and keep the record, with every outgoing message held for my approval. | [Architecture](pm-agent-os/docs/architecture.md) · [Decisions](pm-agent-os/docs/decisions/) · [Build log](pm-agent-os/BUILD-LOG.md) |
+| 🗺️ | [**ai-product-blueprint**](ai-product-blueprint/) | The reusable design behind pm-agent-os, for any AI agent: which tool owns which fact, the playbook from signal to spec, a draft-only agent team, and Obsidian as knowledge base and task system. | [Playbook](ai-product-blueprint/docs/product-playbook.md) · [Workflow](ai-product-blueprint/docs/workflow.md) · [Agent team](ai-product-blueprint/docs/agent-team.md) |
 
-Each write-up follows the same shape: **problem → who it was for → what it does → decisions → build log → what I'd do differently.** The build logs are written up from dated decision records and include the reversals. New builds are added as they ship.
+Each tool write-up follows the same shape: **problem → who it was for → what it does → decisions → build log → what I'd do differently.** The build logs are written up from dated decision records and include the reversals. The blueprint is a design document and covers the four parts of the system instead. New builds are added as they ship.
 
 ## Open-source tools
 
