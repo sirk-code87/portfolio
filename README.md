@@ -37,6 +37,7 @@ My own projects, with the code in their own repos.
 Each study runs problem, solution and impact: how I found the problem, how I chose the fix, and what it measurably changed.
 
 - [**Retuning fraud rules that were turning away good guests**](product-case-studies/fraud-rules-blocking-good-guests/): a fraud rule was declining genuine guests, some of them eight times on one booking. No quick test could prove a change safe, so I narrowed the rule live, wrote down when I'd reverse it before any results came in, and cut its blocks by 95% with no rise in fraud warnings.
+- [**An upsell engine operators would trust with their margins**](product-case-studies/upsell-engine/): restaurant operators lost a working day or more every menu cycle building upsell lists by hand. I chose a machine learning engine that learned from real orders, and when the pilot showed operators wouldn't trust a black box, the second release gave them an audit trail and their own rules. Average transaction value rose 8% to 12% against control groups.
 
 More studies on prioritisation, payments and integrations are being added.
 
