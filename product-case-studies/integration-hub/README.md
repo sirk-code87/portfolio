@@ -78,15 +78,34 @@ The core was designed to grow from use. The connectors products swap in show whi
 ```mermaid
 flowchart LR
     subgraph Products["Group products"]
-        P1["Ordering"] --- M1["Own connector"]
-        P2["Reservations"] --- M2["Own connector"]
-        P3["Other products"] --- M3["Own connector"]
+        P1["Ordering"]
+        P2["Reservations"]
+        P3["Other products"]
     end
-    M1 --> Core["Hub: common capabilities<br/>and shared monitoring"]
-    M2 --> Core
-    M3 --> Core
-    Core --> V["Outside systems:<br/>POS, reservations, CRM"]
-    M2 -.->|"Most-used connectors<br/>join the core"| Core
+    subgraph Hub["Integration hub"]
+        API["Hub API:<br/>one entry point"]
+        subgraph Swap["Swap-in layer: connectors each product owns"]
+            C1["Ordering<br/>connector"]
+            C2["Reservations<br/>connector"]
+            C3["Other product<br/>connectors"]
+        end
+        Core["Common capabilities core:<br/>built once, shared by every product"]
+        Mon["Shared monitoring<br/>and flow tracing"]
+    end
+    V["Outside systems:<br/>POS, reservations, CRM"]
+    P1 --> API
+    P2 --> API
+    P3 --> API
+    API -->|"Standard needs"| Core
+    API -->|"Product-specific needs"| C1
+    API --> C2
+    API --> C3
+    C1 -->|"Builds on"| Core
+    C2 --> Core
+    C3 --> Core
+    Core --> V
+    Core -.- Mon
+    C2 -.->|"Most-used connectors<br/>promoted into the core"| Core
 ```
 
 ### Making invisible work visible
