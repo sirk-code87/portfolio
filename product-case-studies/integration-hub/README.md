@@ -71,7 +71,7 @@ flowchart TD
 
 ### The design: common capabilities, swap-in connectors
 
-The hub provides the base capabilities every product needs. Each product swaps in its own connectors for what it specifically needs, and keeps its own store configuration and credentials. The squad never had to triage customisation requests from every team, and each product team stayed responsible for its own security and uptime.
+The hub provides the base capabilities every product needs. Each product team builds and maintains its own connectors, which run inside the hub. A connector builds on the common capabilities and can also call an outside system directly for what that product specifically needs. Products keep their own store configuration and credentials. The squad never had to triage customisation requests from every team, and each product team stayed responsible for its own security and uptime.
 
 The core was designed to grow from use. The connectors products swap in show which capabilities are popular, much like community-voted modules, and the most used would be absorbed into the common set, shortening integration for the next acquisition.
 
@@ -84,7 +84,7 @@ flowchart LR
     end
     subgraph Hub["Integration hub"]
         API["Hub API:<br/>one entry point"]
-        subgraph Swap["Swap-in layer: connectors each product owns"]
+        subgraph Swap["Swap-in layer: connectors each product team builds"]
             C1["Ordering<br/>connector"]
             C2["Reservations<br/>connector"]
             C3["Other product<br/>connectors"]
@@ -97,15 +97,12 @@ flowchart LR
     P2 --> API
     P3 --> API
     API -->|"Standard needs"| Core
-    API -->|"Product-specific needs"| C1
-    API --> C2
-    API --> C3
-    C1 -->|"Builds on"| Core
-    C2 --> Core
-    C3 --> Core
+    API -->|"Product-specific needs"| Swap
+    Swap -->|"Builds on"| Core
+    Swap -.->|"Most-used connectors<br/>promoted into the core"| Core
     Core --> V
+    Swap -->|"Custom calls"| V
     Core -.- Mon
-    C2 -.->|"Most-used connectors<br/>promoted into the core"| Core
 ```
 
 ### Making invisible work visible
