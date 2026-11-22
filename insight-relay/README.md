@@ -72,7 +72,7 @@ Full diagrams, including step-by-step runs of both lanes and how a note is match
 - Within six weeks the relay carried feedback from every channel, most of it through the automated lanes.
 - By the end of the second month the automated lanes filed five to ten times as many insights a day as the coach.
 - Customer linking: I changed staff-filed notes to attach to the customer, where before they attached to the colleague who filed them, then updated every existing note with a clear customer, with no failures. A shared company cache cut the company lookup from about 12 seconds on a cold start to 0.5 seconds.
-- The call-transcript lane went live with 96% accuracy on the notes I checked by hand.
+- The call-transcript lane went live at 96% precision.
 - When two new internal tools needed a feedback route, their teams chose this pipeline.
 
 Not measured: the split of insights by channel, and whether the relay changed what got prioritised. Raw note counts are a poor proxy for demand, because one noisy survey channel can dominate the board.
