@@ -211,7 +211,7 @@ It had been blocking edits to standalone guides.
 I left the company and handed over what the team needed.
 
 ### 2026-11  Listed every automation by what it feeds; deleted local configuration
-Team-facing services stayed with alerts re-pointed, routines on my personal account were deleted, laptop-bound jobs were switched off. The handover notes flag that auto-merge (code changes merging themselves once tests pass) had been enabled for some repositories.
+Team-facing services stayed with alerts re-pointed, routines on my personal account were deleted, laptop-bound jobs were switched off. The handover notes list which repositories merge code changes automatically once tests pass (the ones I owned) and which wait for engineer review.
 
 ### 2026-11  Moved general tooling to a personal vault; set the team commands aside
 Persona commands and work agents kept as an inventory for a future role.

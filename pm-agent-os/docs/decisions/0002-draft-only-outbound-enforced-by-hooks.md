@@ -12,7 +12,7 @@ I moved the outbound rules from prose into Claude Code lifecycle hooks, scripts 
 - An outbound style check runs on text before it leaves, so the house voice is checked in code.
 - A gate on Productboard record writes requires the house PRD (product requirements document) standard first.
 - Delegates and scheduled runners are draft-only by design: they return text, and the only outside writes they make are drafts in Slack or email that I send myself.
-- Automated code work stops at a pull request, a proposed change for an engineer to review.
+- Automated code work in code another team owns stops at a pull request, a proposed change for that team's engineers to review. Only repositories I owned merged changes automatically once tests passed.
 
 ## Alternatives rejected
 
@@ -24,7 +24,7 @@ I moved the outbound rules from prose into Claude Code lifecycle hooks, scripts 
 
 - Fifteen hook registrations across four trigger points by handover.
 - Hooks need maintenance: the PRD gate was too broad at first and blocked edits to standalone guides, so I limited it to Productboard record writes.
-- The rule covers agent actions inside the vault. Configuration elsewhere needed its own check: the overnight runner's "never merge" rule was a convention in its own repositories, and by handover some of them merged changes automatically once tests passed. A guardrail that matters should be checked wherever it applies.
+- The rule covers agent actions inside the vault. Code changes needed their own record: the overnight runner's merge tiers (automatic in my own repositories, engineer review elsewhere) lived in each repository's settings with no decision record, so the handover notes had to spell them out. A guardrail that matters should be written down and checked wherever it applies.
 
 ## Date
 
