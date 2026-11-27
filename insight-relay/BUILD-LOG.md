@@ -1,6 +1,6 @@
 # Build log
 
-Reconstructed from my own dated notes on the original, private repositories.
+Reconstructed after the event, to the month. The original repositories are private.
 
 The **direct lane** is a webhook: a web address other tools send a single note to, which files it at once and sends back a link. The **judged lanes** run on a schedule and use an AI model as a judge to decide what to file. A lane in **dry-run** is in test mode: it posts what it would have filed and files nothing.
 

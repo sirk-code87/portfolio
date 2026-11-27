@@ -1,10 +1,10 @@
 # Build log
 
-Reconstructed from my own dated notes. The original repositories and their commit history are private.
+Reconstructed after the event, to the month. The original repositories and their commit history are private.
 
 ### 2026-06  Reuse the relay's filing contract for coached insights
 
-The relay already filed Productboard notes for people without a Productboard login. The coach sends its confirmed insights through the relay's direct lane (a web address other tools send a single note to, which files it at once and sends back a link), in the same data shape. The date of the coach's first build is missing from my notes.
+The relay already filed Productboard notes for people without a Productboard login. The coach sends its confirmed insights through the relay's direct lane (a web address other tools send a single note to, which files it at once and sends back a link), in the same data shape. The date of the coach's first build isn't recorded here.
 
 ### 2026-07  Move the product choice out of the chat and onto the confirm card
 

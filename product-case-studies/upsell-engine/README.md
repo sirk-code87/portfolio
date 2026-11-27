@@ -73,7 +73,7 @@ Average transaction value rose almost immediately. The feedback raised three pro
 2. **Stock.** The engine promoted items the restaurant usually sold few of. Shown prominently, they sold out. With those gone, the engine drew on a narrower set of upsells and sold through those faster too. Pilot sites ran out of items often.
 3. **Trust.** Revenue and marketing managers called it a black box and did not trust its picks.
 
-The third problem held the lesson. We had built almost exactly what operators asked for, and they found it lacking. Restaurants upsell to raise profit, and average spend is only part of that: a large portion of fries is offered with a meal because of the margin on the larger size. Operators had business rules behind every upsell, and those rules were theirs to set.
+The third problem held the lesson. We had built almost exactly what operators asked for, and they found it lacking. Profit is one of the main reasons restaurants upsell, and average spend shows only part of it: a large portion of fries is offered with a meal because of the margin on the larger size. Operators had business rules behind every upsell, and those rules were theirs to set.
 
 So I put the second release into opening the black box. Showing better results would not have won trust on its own; operators needed to see why each item was offered.
 
@@ -114,9 +114,9 @@ The engine became an experimentation tool. From its results under their own rule
 
 ### Not yet known at handover
 
-- **Margin.** The measures were time and transaction value; the effect on margin per order is not in my record.
+- **Margin.** The measures were time and transaction value; the effect on margin per order wasn't measured.
 
 ## What I'd do differently
 
 - **Plan for transparency from the start.** We had good reason to expect a black box would struggle with revenue managers, and could have planned the audit trail earlier. I'd weigh that against speed: the first release was there to test whether automated upsells were the right direction at all, and a lean version answered that quickly. Next time I'd ship the lean version with the audit trail designed and ready to follow.
-- **Measure what operators optimise for.** I'd set margin per order beside transaction value as a success measure from day one, since profit is why restaurants upsell.
+- **Measure what operators optimise for.** I'd set margin per order beside transaction value as a success measure from day one, since profit is one of the main reasons restaurants upsell.

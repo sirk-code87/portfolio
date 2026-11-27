@@ -8,7 +8,7 @@
 
 Product decisions from two former employers: a UK hospitality commerce company serving luxury hotels and spas, and before that a restaurant ordering and pay-at-table platform that belongs to a large UK software group. Each study has three parts: the problem and how I found it, the solution and how I chose it, and the impact, followed by what I'd do differently.
 
-These are rewritten from my own notes. The original documents belong to those companies. Customers, partners and colleagues appear by role only, and commercial figures are given as shares and ratios rather than amounts. Where an outcome was still open at handover, the study says so.
+These are my own accounts of the work. The original documents belong to those companies. Customers, partners and colleagues appear by role only, and commercial figures are given as shares and ratios rather than amounts. Where an outcome was still open at handover, the study says so.
 
 ## Measure before you claim
 

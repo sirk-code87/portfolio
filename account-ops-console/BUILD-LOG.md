@@ -1,6 +1,6 @@
 # Build log
 
-Reconstructed from my own dated notes.
+Reconstructed after the event, to the month.
 
 ### 2026-09  diagnose failing connected-account creation
 

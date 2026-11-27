@@ -1,6 +1,6 @@
 # Build log
 
-Reconstructed from my own dated notes. The original system and its code are private.
+Reconstructed after the event, to the month. The original system and its code are private.
 
 Newest last. Each era opens with what changed and why; the entries under it are the milestones and reversals of that period.
 
@@ -50,7 +50,7 @@ Cheap enough to run every morning.
 
 ## Era 2: Claude Code migration and hooks (May to June 2026)
 
-I moved every agent and command to Claude Code and started enforcing rules in hooks (scripts that run automatically before or after the assistant acts). My notes do not record why I left OpenCode.
+I moved every agent and command to Claude Code and started enforcing rules in hooks (scripts that run automatically before or after the assistant acts). Why I left OpenCode isn't recorded here.
 
 ### 2026-05  Migrated 110 agent and command definitions from OpenCode to Claude Code
 `CLAUDE.md`, the instruction file the assistant reads at the start of every session, became the single configuration inherited by every subagent.
@@ -183,7 +183,7 @@ A recurring team communication drafted end to end.
 Corrections become notes with a trigger and a hit count; a script builds a capped digest per persona. I rejected Claude Code's built-in agent memory because it had no evidence gate or audit trail.
 
 ### 2026-10  Revised the delegates, `/team`, the handoff runner and the question protocol
-Several skills retired. My notes do not hold the detail of the revision.
+Several skills retired. The detail of the revision isn't recorded here.
 
 ### 2026-10  Found the first week's lessons reached no persona digest
 Nearly every lesson was tagged general, because corrections happened in sessions with no persona in use.
