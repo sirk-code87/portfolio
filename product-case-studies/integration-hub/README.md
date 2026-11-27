@@ -107,7 +107,7 @@ flowchart LR
 
 ### Making invisible work visible
 
-Integration aggregation does its job when nobody notices it, and our audience ranged from engineers to commercial leaders. So we built a visualisation layer: individual order and call flows traced from start to finish, with performance statistics for each integration. Early programme reviews had shown that live demos landed far better than demos on a local machine, so we built it on real code and APIs (application programming interfaces, the way one system requests data from another).
+Integration aggregation does its job when nobody notices it, and our audience ranged from engineers to commercial leaders. So we built a visualisation layer: individual order and call flows traced from start to finish, with performance statistics for each integration. Early programme reviews had shown that live demos landed far better than demos on a local machine, so we built it on real code and APIs.
 
 ## 3. Impact
 
