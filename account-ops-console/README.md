@@ -112,7 +112,7 @@ This repository documents the design: architecture, decisions, build history and
 
 ## Repo contents
 
-- [BUILD-LOG.md](BUILD-LOG.md): build history reconstructed from my own notes
+- [BUILD-LOG.md](BUILD-LOG.md): build history, reconstructed to the month
 - [docs/architecture.md](docs/architecture.md): context, data model, create flow, sync and alerts
 - [docs/product-method.md](docs/product-method.md): ranking, slices, Not Doing, hypotheses, the review gate
 - [docs/threat-model.md](docs/threat-model.md): generic STRIDE threat model and privacy approach

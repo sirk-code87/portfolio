@@ -10,7 +10,7 @@ The original table was lost when the private configuration was deleted at handov
 |---|---|---|---|
 | Product | Value and viability: what problem, for whom, on what evidence, and whether it is worth doing | The output has to combine several lenses into one recommendation: market entry, a strategy test, logging a feature. Default primary when nothing else binds. Tiebreaker of record in decision reviews. | Any lens whose question binds |
 | Engineering | Feasibility: architecture, code readiness, hosting, effort. Settles technical claims against the code itself. | Feasibility is the binding constraint: hosting, data residency, a repository fix | Legal when a regulatory perimeter applies |
-| Commercial | Customer health, churn and retention impact, customer voice, deal and pricing qualification | Deal or account qualification. My notes hold no session where it led, so this row is inferred from its skills. | Product, finance |
+| Commercial | Customer health, churn and retention impact, customer voice, deal and pricing qualification | Deal or account qualification. No session where it led is recorded, so this row is inferred from its skills. | Product, finance |
 | Operations | How work runs: meetings, rhythms, ownership, coordination, handover | Process and cadence questions | Product |
 | Design | Usability and visual quality of screens, documents and diagrams | A screen, page or document critique | Product, marketing |
 | Marketing | Positioning, audience, go-to-market, competitor and pricing scans | Competitive and pricing research | Finance |
@@ -47,4 +47,4 @@ Sessions show product, engineering and marketing as primaries directly. The othe
 - Lenses disagreed usefully: in one session the data lens found an analytics event that answered a question the product lens had called unanswerable.
 - Lenses also missed things: a design review missed duplicated controls that I caught from screenshots.
 - Not yet measured: which lens choices were right and how many drafts I kept, because the router logged neither. A rebuild should log the lenses chosen and whether I accepted the output, from the first run.
-- What changed in the October revision of `/team` is not in my notes.
+- What changed in the October revision of `/team` isn't recorded here.

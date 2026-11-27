@@ -8,7 +8,7 @@ From February to May 2026 the system ran on OpenCode, an open-source AI coding a
 
 I moved all 110 definitions to Claude Code, Anthropic's AI assistant, in one step, with `CLAUDE.md` (the instruction file read at the start of every session) as the single configuration. I added lifecycle hooks, scripts that run automatically before or after the assistant acts, the following day.
 
-My notes record the migration and its follow-up work. They do not record why I chose to leave OpenCode, so this record gives no reason.
+This record covers the migration and its follow-up work. Why I chose to leave OpenCode isn't recorded, so it gives no reason.
 
 ## Alternatives rejected
 

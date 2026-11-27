@@ -89,7 +89,7 @@ Full diagrams are in [docs/architecture.md](docs/architecture.md).
 
 ## Outcomes
 
-- The number of people filing insights rose almost tenfold in the two weeks after launch. Setting my own notes aside, daily insights roughly quadrupled.
+- The number of people filing insights rose almost tenfold in the two weeks after launch. Leaving out the insights I filed myself, daily insights roughly quadrupled.
 - In the first six weeks, 88% of the people who started a chat filed an insight, and almost everyone who reached the draft card (99%) filed.
 - The customer success team moved its change-request intake off its old board and onto the coach.
 - When two internal tools needed a feedback route, their teams embedded the coach. One went live. The second, which opened the coach to that tool's customer users, was built and awaiting review when I handed over.

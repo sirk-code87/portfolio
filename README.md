@@ -23,7 +23,7 @@ A working collection of things I've built and shipped as a hands-on product mana
 | 🧭 | [**pm-agent-os**](pm-agent-os/) | My own AI workspace for day-to-day product work: agents that read, draft and keep the record, with every outgoing message held for my approval. | [Architecture](pm-agent-os/docs/architecture.md) · [Decisions](pm-agent-os/docs/decisions/) · [Build log](pm-agent-os/BUILD-LOG.md) |
 | 🗺️ | [**ai-product-blueprint**](ai-product-blueprint/) | The reusable design behind pm-agent-os, for any AI agent: which tool owns which fact, the playbook from signal to spec, a draft-only agent team, and Obsidian as knowledge base and task system. | [Playbook](ai-product-blueprint/docs/product-playbook.md) · [Workflow](ai-product-blueprint/docs/workflow.md) · [Agent team](ai-product-blueprint/docs/agent-team.md) |
 
-Each tool write-up follows the same shape: **problem → who it was for → what it does → decisions → build log → what I'd do differently.** The build logs are written up from dated decision records and include the reversals. The blueprint is a design document and covers the four parts of the system instead. New builds are added as they ship.
+Each tool write-up follows the same shape: **problem → who it was for → what it does → decisions → build log → what I'd do differently.** The build logs are reconstructed to the month and include the reversals. The blueprint is a design document and covers the four parts of the system instead. New builds are added as they ship.
 
 ## Open-source tools
 

@@ -78,7 +78,7 @@ stateDiagram-v2
     Done --> [*]
 ```
 
-The lane is two extra task statuses on the existing board. A runner fires three times each weekday, takes up to three Delegate tasks, routes each to one to three delegates through the `/team` dispatch table, and writes the primary delegate's combined draft onto the task. Until October every finished task went to Review, which held finished work, messages to send and real decisions together; 57 tasks built up there. After that change only decisions reach Review, and messages become drafts in Slack or email for me to send. Delegates never send anything themselves. Message tasks leaving the board after the draft is placed is my reading of the change; the exact status they took is not in my notes.
+The lane is two extra task statuses on the existing board. A runner fires three times each weekday, takes up to three Delegate tasks, routes each to one to three delegates through the `/team` dispatch table, and writes the primary delegate's combined draft onto the task. Until October every finished task went to Review, which held finished work, messages to send and real decisions together; 57 tasks built up there. After that change only decisions reach Review, and messages become drafts in Slack or email for me to send. Delegates never send anything themselves. Message tasks leaving the board after the draft is placed is my reading of the change; the exact status they took isn't recorded here.
 
 ## 4. OpenCode era against Claude Code era
 

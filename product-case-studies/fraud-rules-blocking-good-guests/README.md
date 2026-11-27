@@ -68,7 +68,7 @@ flowchart TD
 
 The six-week readout went to the business. It led with incremental recovered spend (gross, minus what guests would have recovered by retrying) and put the dispute caveat on the face of the page.
 
-About a month after the change, I reviewed every rule with one added test: what share of blocked cards later paid successfully. The card security code (CVC) rule blocked any wrong code; 46% of its blocked cards later paid, and none showed fraud. That review led to four changes:
+About a month after the change, I reviewed every rule and asked how many of the cards it blocked went on to pay. The card security code (CVC) rule blocked any wrong code. 46% of the cards it blocked later paid, and none showed fraud. The review led to four changes:
 
 1. **Gate the CVC block on risk scores above 5.** This released nearly all the value of removing it and kept the few high-score blocks that carried most of the fraud exposure.
 2. **Keep the postcode block and tighten it to 5 or above.** Removing it outright would have gained about as much in fees as it lost to fraud.

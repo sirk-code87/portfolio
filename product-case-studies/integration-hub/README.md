@@ -23,7 +23,7 @@ Our company relied on outside integrations more than any other in the division, 
 
 ### What the integrations had in common, and what they didn't
 
-To find where the cost sat, I surveyed product engineering teams across the division and, with an analyst, built a registry of every integration they ran. Three findings shaped the initiative brief I wrote:
+To find where the cost sat, I drew on a survey of product engineering teams across the division and, with an analyst, built a registry of every integration they ran. Three findings shaped the initiative brief I wrote:
 
 - **Every surveyed team was rebuilding integrations that already existed elsewhere in the group.** Integration-heavy teams reported spending up to half their development capacity on it, and estimated six to eight weeks per integration. Teams with little capacity could not build the integrations their customers asked for at all.
 - **Teams reported the same vendor's integration ranging from highly reliable to failing daily** from product to product, watched through a spread of separate monitoring tools.
